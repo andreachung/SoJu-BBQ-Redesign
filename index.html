@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description=" content="SoJu BBQ restaurant home page with hours and location. Reserve a table, order online, contact us, and see the menu.">
+	<title>SoJu BBQ | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/sojufavicon.png">
+    <script src="https://kit.fontawesome.com/78693528df.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+	
+    <header id="home-head">
+        <div id="logo-nav" class="navbar">
+            <div id="logo" class="nav-branding">
+                <a href="index.html"><img src="images/soju-logo_1@4x.png" alt="soju bbq logo"></a>
+            </div>
+
+            <div id="top-nav">
+                <nav>
+                <ul class="nav-menu">
+                    <li id="home-link" class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li id="menu-link" class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
+                    <li id="reserve-link" class="nav-item"><a href="https://resy.com/cities/chi/soju-bbq" target="_blank" class="nav-link">Reservations</a></li>
+                    <li id="order-link" class="nav-item"><a href="https://www.exploretock.com/sojubbq/" target="_blank" class="nav-link">Order Online</a></li>
+                    <li id="about-link" class="nav-item"><a href="about-us.html" class="nav-link">About Us</a></li>
+                    <li id="contact-link" class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                </nav>
+            </div>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            
+        </div>
+
+        <div id="reservation-link">
+            <a href="https://resy.com/cities/chi/soju-bbq" target="_blank"><button class="button res-button">Reserve Now</button></a>
+        </div>
+        
+    </header>
+
+    <div class="container">
+        <main>
+            <div class="main-content">
+               <h2>MODERN TWIST ON HOMEMADE KOREAN BBQ</h2>
+                <br>
+                <p>SoJu BBQ started with the dream of providing highly accessible quality driven Korean food to hungry Chicagoans. We only source quality proteins and serve them in the freshest and most delicious way possible. Servers do the grilling at this modern Korean eatery with delivery and catering options.</p> 
+            </div>
+            <div id="gallery" class="main-content">
+                <h2>Gallery</h2>
+                <!-- Images used to open the lightbox -->
+
+                <div class="column">
+                    <img src="images/soju-tacos-beef-2.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="images/soju-table-vert-2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="images/soju-table-variety-2.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="images/soju-pickles-dish-2.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="images/soju-meats-tacos-2.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="images/soju-fries-chicken-2.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="images/soju-drinks-2.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="images/soju-boodae-2.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="images/soju-beer-2.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+                </div>
+                
+                
+                <!-- The Modal/Lightbox -->
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+                
+                    <div class="mySlides fullwidth">
+                        <div class="numbertext">1 / 9</div>
+                        <img src="images/soju-tacos-beef.jpg">
+                    </div>
+                
+                    <div class="mySlides fullwidth">
+                        <div class="numbertext">2 / 9</div>
+                        <img src="images/soju-table-vert.jpg">
+                    </div>
+                
+                    <div class="mySlides fullwidth">
+                        <div class="numbertext">3 / 9</div>
+                        <img src="images/soju-table-variety.jpg">
+                    </div>
+                
+                    <div class="mySlides fullwidth">
+                        <div class="numbertext">4 / 9</div>
+                        <img src="images/soju-pickles-dish.jpg">
+                    </div>
+                    
+                    <div class="mySlides fullwidth">
+                        <div class="numbertext">5 / 9</div>
+                        <img src="images/soju-meats-tacos.jpg">
+                    </div>
+                
+                    <div class="mySlides fullwidth">
+                        <div class="numbertext">6 / 9</div>
+                        <img src="images/soju-fries-chicken.jpg">
+                    </div>
+                
+                    <div class="mySlides fullwidth">
+                        <div class="numbertext">7 / 9</div>
+                        <img src="images/soju-drinks.jpg">
+                    </div>
+                
+                    <div class="mySlides fullwidth">
+                        <div class="numbertext">8 / 9</div>
+                        <img src="images/soju-boodae.jpg">
+                    </div>
+                    
+                    <div class="mySlides fullwidth">
+                        <div class="numbertext">9 / 9</div>
+                        <img src="images/soju-beer.jpg">
+                    </div>
+                    
+                
+                    <!-- Next/previous controls -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                    <!-- Caption text -->
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+                
+                    <!-- Thumbnail image controls -->
+                    <div class="column">
+                        <img class="demo" src="images/soju-tacos-beef-2.jpg" onclick="currentSlide(1)" alt="Our tasty tacos and kalbi">
+                    </div>
+                
+                    <div class="column">
+                        <img class="demo" src="images/soju-table-vert-2.jpg" onclick="currentSlide(2)" alt="A spread of some of our popular dishes">
+                    </div>
+                
+                    <div class="column">
+                        <img class="demo" src="images/soju-table-variety-2.jpg" onclick="currentSlide(3)" alt="Our tacos, bibimbap, soju skewers, and a variety of meats">
+                    </div>
+                
+                    <div class="column">
+                        <img class="demo" src="images/soju-pickles-dish-2.jpg" onclick="currentSlide(4)" alt="A rice bowl with grilled protein and various sides">
+                    </div>
+
+                    <div class="column">
+                        <img class="demo" src="images/soju-meats-tacos-2.jpg" onclick="currentSlide(5)" alt="An assortment of grilled meats and tacos">
+                    </div>
+                
+                    <div class="column">
+                        <img class="demo" src="images/soju-fries-chicken-2.jpg" onclick="currentSlide(6)" alt="Our tasty Korean fried chicken and loaded fries">
+                    </div>
+                
+                    <div class="column">
+                        <img class="demo" src="images/soju-drinks-2.jpg" onclick="currentSlide(7)" alt="Our selection of soju and beer">
+                    </div>
+                
+                    <div class="column">
+                        <img class="demo" src="images/soju-boodae-2.jpg" onclick="currentSlide(8)" alt="Delicious Korean army stew, boodae jjigae">
+                    </div>
+                    <div class="column">
+                        <img class="demo" src="images/soju-beer-2.jpg" onclick="currentSlide(9)" alt="Our beer selection">
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+
+        <aside>
+            <h2>Hours:</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Mon:</th>
+                        <td>4pm-10pm</td>
+                    </tr>
+                    <tr>
+                        <th>Tue:</th>
+                        <td>4pm-10pm</td>
+                    </tr>
+                    <tr>
+                        <th>Wed:</th>
+                        <td>4pm-10pm</td>
+                    </tr>
+                    <tr>
+                        <th>Thu:</th>
+                        <td>12pm-10pm</td>
+                    </tr>
+                    <tr>
+                        <th>Fri:</th>
+                        <td>12pm-11pm</td>
+                    </tr>
+                    <tr>
+                        <th>Sat:</th>
+                        <td>12pm-11pm</td>
+                    </tr>
+                    <tr>
+                        <th>Sun:</th>
+                        <td>12pm-10pm</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Location:</h2>
+            <a href="https://www.google.com/maps/place/SoJu+BBQ/data=!3m1!4b1!4m2!3m1!1s0x880e2dc62a02018b:0x776221026d5c93bf" target="_blank">36 South Ashland Avenue
+                <br>
+                Chicago, Illinois 60607
+                <br>
+                United States</a>
+            <h2>Phone:</h2> 
+            <a href="tel:+1-312-877-5206">(312)-577-8206</a>
+        </aside>
+        
+        
+    </div>
+
+    <footer>
+        <div id="logo-bottom">
+            <a href="index.html"><img src="images/soju-logo-dark.png" alt="soju bbq logo"></a>
+        </div>
+        <div id="foot-text">
+            Stay updated, message and tag us on social media!
+        </div>
+        <div id="social-icons">
+            <a href="https://www.instagram.com/sojubbqhouse/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/SoJuBBQ/?ref=page_internal"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.yelp.com/biz/soju-bbq-chicago?utm_campaign=www_business_share_popup&utm_medium=copy_link&utm_source=(direct)" target="_blank"><i class="fab fa-yelp"></i></a>
+        </div>
+        
+    </footer>
+
+    <script>
+        // Open the Modal
+        function openModal() {
+          document.getElementById("myModal").style.display = "block";
+        }
+        
+        // Close the Modal
+        function closeModal() {
+          document.getElementById("myModal").style.display = "none";
+        }
+        
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        // Next/previous controls
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        // Thumbnail image controls
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          var captionText = document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+
+        hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+        })
+
+        document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
+        hamburger.classList.remove("active");
+        navMenu.classList.remove("active");
+        }))
+    </script>
+	
+</body>
+</html>
