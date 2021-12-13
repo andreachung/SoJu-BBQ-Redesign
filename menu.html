@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description=" content="SoJu BBQ restaurant menu page with menu items and prices.">
+	<title>SoJu BBQ | Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/sojufavicon.png">
+    <script src="https://kit.fontawesome.com/78693528df.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+	
+    <header id="menu-head">
+        <div id="logo-nav" class="navbar">
+            <div id="logo" class="nav-branding">
+                <a href="index.html"><img src="images/soju-logo_1@4x.png" alt="soju bbq logo"></a>
+            </div>
+
+            <div id="top-nav">
+                <nav>
+                <ul class="nav-menu">
+                    <li id="home-link" class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li id="menu-link" class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
+                    <li id="reserve-link" class="nav-item"><a href="https://resy.com/cities/chi/soju-bbq" target="_blank" class="nav-link">Reservations</a></li>
+                    <li id="order-link" class="nav-item"><a href="https://www.exploretock.com/sojubbq/" target="_blank" class="nav-link">Order Online</a></li>
+                    <li id="about-link" class="nav-item"><a href="about-us.html" class="nav-link">About Us</a></li>
+                    <li id="contact-link" class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                </nav>
+            </div>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            
+        </div>
+        
+    </header>
+
+    <div class="container">
+        
+        <main id="menu" class="main-content">
+            <h1>Menu</h1>
+            <br>
+            <div id="tabs" class="tab">
+                <button class="tablinks" onclick="openMenu(event, 'Appetizers')" id="defaultOpen">Appetizers</button>
+                <button class="tablinks" onclick="openMenu(event, 'BBQ')">BBQ</button>
+                <button class="tablinks" onclick="openMenu(event, 'Bibimbap')">Bibimbap</button>
+                <button class="tablinks" onclick="openMenu(event, 'Tacos')">Tacos</button>
+                <button class="tablinks" onclick="openMenu(event, 'Group Deals')">Group Deals</button>
+                <button class="tablinks" onclick="openMenu(event, 'Soups')">Soups</button>
+                <button class="tablinks" onclick="openMenu(event, 'Sandwiches')">Sandwiches</button>
+                <button class="tablinks" onclick="openMenu(event, 'Pizza')">Pizza</button>
+                <button class="tablinks" onclick="openMenu(event, 'Sides')">Sides</button>
+                <button class="tablinks" onclick="openMenu(event, 'Desserts')">Desserts</button>
+                <button class="tablinks" onclick="openMenu(event, 'Soft Drinks')">Soft Drinks</button>
+                <button class="tablinks" onclick="openMenu(event, 'Beer')">Beer</button>
+                <button class="tablinks" onclick="openMenu(event, 'Soju')">Soju</button>
+            </div>
+              
+              <!-- Tab content -->
+            <div id="Appetizers" class="tabcontent">
+                <h2>Appetizers</h2>
+                <br>
+                <h3>Soju skewers | $10</h3>
+                <p>Two fried rice cakes brushed with gochujang sauce</p>
+                <br>
+                <h3>Kimchi Dumplings | $10</h3>
+                <p>12 Fried kimchi dumplings with sweet soy, chili oil, scallions and sesame seeds</p>
+                <br>
+                <h3>Loaded Fries | $13</h3>
+                <p>Fries topped with cheese, bulgogi, kimchi, fried onions, scallions and loads of sauces</p>
+                <br>
+                <h3>Korean Fried Chicken | $14</h3>
+                <p>(Sweet Soy, Spice and Korean Mild)
+                    Choose your sauce with our crunchy delicious wings!</p>
+                <br>
+                <h3>Garlic Fried Rice | $12</h3>
+                <p>Fried rice with garlic, egg, spam, onions and scallions</p>
+                <br>
+                <h3>Kimchi Fried Rice | $12</h3>
+                <p>Fried riced with kimchi, gochujang, spam, egg, onions and scallions</p>
+                <br>
+                <h3>Saucy Tofu | $10</h3>
+
+                <img src="images/soju-chicken.jpg" alt="our korean fried chicken" class="fullwidth">
+
+
+            </div>
+              
+            <div id="BBQ" class="tabcontent">
+                <h2>BBQ</h2>
+                <br>
+                <p><b>Comes with Rice + Your choice of 2 sides:</b> <br> Rice, Cabbage Kimchi, Pickled Radish, Pickled Cucumber, Eggplant Saute ($1), Spinach Saute ($1), Kimchi Dumplings ($4), Fries ($4)</p>
+                <br>
+                <h3>Kalbijjim (Braised Short Rib) | $28</h3>
+                <p>Tender well marbled beef short rib cooked in house made braising liquid with hearty vegetables and seasonings</p>
+                <br>
+                <h3>Bulgogi (Ribeye) | $22</h3>
+                <p>Creekstone choice Angus ribeye thinly cooked in high heat with sweet soy reduction</p>
+                <br>
+                <h3>L.A. Kalbi | $20</h3>
+                <p>Thin-cut beef short ribs marinaded in soy grilled and tossed with onions</p>
+                <br>
+                <h3>Grilled Pork Belly | $15</h3>
+                <p>Duroc porkbelly cooked to perfection and seasoned with sesame oil and house spices</p>
+                <br>
+                <h3>Spicy Pork Belly | $15</h3>
+                <p>Stir-fried Duroc porkbelly with kimchi and gochujang sauce</p>
+                <br>
+                <h3>Korean Brisket | $16</h3>
+                <p>Super thin brisket cooked over high heat with garlic and sea salt</p>
+                <br>
+                <h3>Buldak (Korean Fire Chicken) | $13</h3>
+                <p>Grilled chicken finished with gochujang sauce</p>
+                <p><i>Make it cheesy ($2)</i></p>
+
+                <img src="images/soju-boxes.jpg" alt="korean barbeque with rice and sides in bento boxes" class="fullwidth">
+            </div>
+
+            <div id="Bibimbap" class="tabcontent">
+                <h2>Bibimbap</h2>
+                <br>
+                <p>Korean hot stone bowl cooked steamed rice with cabbage kimchi, radish, carrots, picked cucumber, sauteed eggplant, sauteed spinach, topped with fried egg, sesame oil, and your choice of protein</p>
+                <br>
+                <h3>Beef Bulgogi Bowl | $15</h3>
+                <br>
+                <h3>Pork Bowl | $13</h3>
+                <br>
+                <h3>Chicken Bowl | $13</h3>
+                <br>
+                <h3>Tofu Bowl | $12</h3>
+                <img src="images/soju-bibimbap2.jpg" alt=" bibimbap rice bowls" class="fullwidth">
+            </div>
+
+            <div id="Tacos" class="tabcontent">
+                <h2>Tacos</h2>
+                <br>
+                <p>Your choice of protein with spicy mayo, radish, cilantro on corn tortillas</p>
+                <br>
+                <h3>Beef Bulgogi Taco | $6</h3>
+                <br>
+                <h3>Chicken Taco | $4</h3>
+                <br>
+                <h3>Tofu Taco | $4</h3>
+
+                <img src="images/soju-tacos.jpg" alt="three tacos" class="fullwidth">
+            </div>
+
+            <div id="Group Deals" class="tabcontent">
+                <h2>Group Deals</h2>
+                <br>
+                <h3>The Sampler - Serves 3-4 | $48</h3>
+                <p>Choice of three proteins, three sides, two servings of rice.</p>
+                <br>
+                <p><b>Protein choices:</b> Ribeye, Brisket, Grilled Pork Belly, Soju Pork Belly, Grilled Soju Chicken, L.A Kalbi</p>
+                <p><b>Side choices:</b>Cabbage Kimchi, Pickled Radish, Pickled Cucumber, Spinach Saute ($1), Eggplant Saute ($1), Fries ($4), Kimchi Dumplings ($4)</p>
+
+                <img src="images/soju-bbq-sides.jpg" alt="korean barbeque meats with sides" class="fullwidth">
+            </div>
+
+            <div id="Soups" class="tabcontent">
+                <h2>Soups</h2>
+                <br>
+                <h3>Korean Army Soup - Boodae Jiggae | $30</h3>
+                <p>Spicy harmony of Korean and American ingredients invented during Korean War with variety of proteins, vegetables and ramen noodle</p>
+                <br>
+                <h3>Kimchi Stew (Kimchi Jjigae) | $14</h3>
+                <p>Rich stew made with tofu, generous amount of Duroc pork and kimchi</p>
+                <br>
+                <h3>Korean Miso Soup (Doenjang Jjigae) | $14</h3>
+                <p>Salty, savory and Korean miso stew with a kick</p>
+                <img src="images/soju-jjigae.jpg" alt="kimchi stew" class="fullwidth">
+            </div>
+
+            <div id="Sandwiches" class="tabcontent">
+                <h2>Sandwiches</h2>
+                <br>
+                <h3>Ribeye Sandwich | $14</h3>
+                <p>Premium bulgogi sandwich with brioche buns, fried onions and cheddar fried egg with secret house spread</p>
+                <br>
+                <h3>Buttermilk Chicken Sandwich | $11</h3>
+                <p>Handbreaded buttermilk battered fried chicken sandwich with brioche buns and secret house spread</p>
+                <img src="images/soju-sandwiches.jpg" alt="chicken and ribeye sandwiches" class="fullwidth">
+            </div>
+
+            <div id="Pizza" class="tabcontent">
+                <h2>Pizza</h2>
+                <br>
+                <h3>Korean Bulgogi Pizza | $25</h3>
+                <p>16" homemade pizza with bulgogi, kimchi, Korean chili pepper and two cheeses</p>
+                <br>
+                <h3>Cheese Pizza | $20</h3>
+                <p>16" homemade two cheese pizza</p>
+                <img src="images/soju-pizza.jpg" alt="bulgogi pizza" class="fullwidth">
+            </div>
+
+            <div id="Sides" class="tabcontent">
+                <h2>Sides</h2>
+                <br>
+                <h3>Kimchi | $3</h3>
+                <br>
+                <h3>Pickled Cucumber | $3</h3>
+                <br>
+                <h3>Pickled Radish | $3</h3>
+                <br>
+                <h3>Sauteed Eggplant | $3</h3>
+                <br>
+                <h3>Sauteed Spinach | $3</h3>
+                <br>
+                <h3>French Fries | $4</h3>
+                <br>
+                <h3>Kimchi Dumplings | $6</h3>
+                <br>
+                <h3>Rice | $2</h3>
+            </div>
+
+            <div id="Desserts" class="tabcontent">
+                <h2>Desserts</h2>
+                <br>
+                <h3>Homemade Mocha Cupcake | $4.50</h3>
+                <img src="images/soju-cupcake.jpg" alt="mocha cupcake" class="fullwidth">
+            </div>
+
+            <div id="Soft Drinks" class="tabcontent">
+                <h2>Soft Drinks</h2>
+                <br>
+                <h3>Soda | $1.50</h3>
+                <p><b>Soda choices:</b>Sprite, Coke Zero, Diet Coke, Coke</p>
+                <br>
+                <h3>Milkis | $2</h3>
+                <br>
+                <h3>Sparkling Water | $1.50</h3>
+                <br>
+                <h3>Homemade Lemonade | $4</h3>
+                <br>
+                <h3>Korean Pear Juice | $4</h3>
+            </div>
+
+            <div id="Beer" class="tabcontent">
+                <h2>Beer</h2>
+                <br>
+                <h3>Sapporo 335ml | $7</h3>
+                <br>
+                <h3>Blue Moon 355ml | $7</h3>
+                <br>
+                <h3>OB Premier 330ml | $7</h3>
+                <br>
+                <h3>Heineken 355ml | $7</h3>
+                <br>
+                <h3>Cass 330ml | $7</h3>
+                <img src="images/soju-bottles.jpg" alt="alcohol bottles" class="fullwidth">
+            </div>
+
+            <div id="Soju" class="tabcontent">
+                <h2>Soju</h2>
+                <br>
+                <h3>Chum Churum 375ml | $14.99</h3>
+                <p><b>Flavor choices:</b> Original, Peach, Citron, Strawberry, Apple, Grapefruit, Blueberry, Pomegranate, Lychee</p>
+                <br>
+                <h3>Chum Churum 750ml | $24.99</h3>
+                <p><b>Flavor choices:</b> Original, Peach, Citron, Yogurt, Strawberry, Apple, Grapefruit, Blueberry, Pomegranate, Lychee</p>
+                <br>
+                <h3>Chamisul 375ml | $15.99</h3>
+                <p>Grape flavor</p>
+                <br>
+                <h3>Jinro Soju | $14.99</h3>
+                <p>Grape flavor</p>
+
+                <img src="images/soju-bottles.jpg" alt="alcohol bottles" class="fullwidth">
+            </div>
+            <br>
+            <p>Ask about our vegetarian, vegan, gluten free, and halal options!</p>
+        </main>
+
+        <aside>
+            <h2>Hours:</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Mon:</th>
+                        <td>4pm-10pm</td>
+                    </tr>
+                    <tr>
+                        <th>Tue:</th>
+                        <td>4pm-10pm</td>
+                    </tr>
+                    <tr>
+                        <th>Wed:</th>
+                        <td>4pm-10pm</td>
+                    </tr>
+                    <tr>
+                        <th>Thu:</th>
+                        <td>12pm-10pm</td>
+                    </tr>
+                    <tr>
+                        <th>Fri:</th>
+                        <td>12pm-11pm</td>
+                    </tr>
+                    <tr>
+                        <th>Sat:</th>
+                        <td>12pm-11pm</td>
+                    </tr>
+                    <tr>
+                        <th>Sun:</th>
+                        <td>12pm-10pm</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Location:</h2>
+            <a href="https://www.google.com/maps/place/SoJu+BBQ/data=!3m1!4b1!4m2!3m1!1s0x880e2dc62a02018b:0x776221026d5c93bf" target="_blank">36 South Ashland Avenue
+                <br>
+                Chicago, Illinois 60607
+                <br>
+                United States</a>
+                <h2>Phone:</h2> 
+                <a href="tel:+1-312-877-5206">(312)-577-8206</a>
+        </aside>
+    </div>
+
+    <footer>
+        <div id="logo-bottom">
+            <a href="index.html"><img src="images/soju-logo-dark.png" alt="soju bbq logo"></a>
+        </div>
+        <div id="foot-text">
+            Stay updated, message and tag us on social media!
+        </div>
+        <div id="social-icons">
+            <a href="https://www.instagram.com/sojubbqhouse/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/SoJuBBQ/?ref=page_internal"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.yelp.com/biz/soju-bbq-chicago?utm_campaign=www_business_share_popup&utm_medium=copy_link&utm_source=(direct)" target="_blank"><i class="fab fa-yelp"></i></a>
+        </div>
+        
+    </footer>
+
+    <script>
+        function openMenu(evt, menuName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(menuName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+
+        document.getElementById("defaultOpen").click();
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+
+        hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+        })
+
+        document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
+        hamburger.classList.remove("active");
+        navMenu.classList.remove("active");
+        }))
+    </script>
+	
+</body>
+</html>
